@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #009cea;
+  color: #b6b6b6;
   text-decoration: none;
 }
 
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #009cea;
+  color: #b6b6b6;
 }
 
 .nav-menu .drop-down > a:after {
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #009cea;
+  color: #b6b6b6;
 }
 
 .mobile-nav {
@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009cea;
+  color: #b6b6b6;
   text-decoration: none;
 }
 
@@ -348,12 +348,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background-image: url("../img/hero-bg.png");
+  background-color:#000000;
+  background-image: url("../img/Untitleddesign.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
   margin-top: 70px;
-  padding: 60px 0;
+  padding: 170px 0;
 }
 
 #hero h1 {
@@ -361,11 +362,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #364146;
+  color: #6f6f6f;
 }
 
 #hero h2 {
-  color: #576971;
+  color: #6f6f6f;
   margin-bottom: 30px;
   font-size: 24px;
 }
@@ -381,11 +382,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #464646;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #b6b6b6;
 }
 
 #hero .hero-img {
@@ -394,6 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-img img {
   width: 70%;
+  
 }
 
 @media (min-width: 1024px) {
@@ -421,7 +423,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7f8f9;
+  background-color: #000000;
 }
 
 .section-title {
@@ -903,7 +905,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: url("../img/team-bg.jpg") center center no-repeat;
+  background: url("../img/teambg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -1491,9 +1493,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #000000;
   padding: 0 0 30px 0;
-  color: #364146;
+  color: #dcdcdc;
   font-size: 14px;
 }
 
@@ -1629,6 +1631,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  background-color: #000000;
 }
 
 #footer .credits {
