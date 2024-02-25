@@ -414,6 +414,67 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/Untitleddesign.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead:before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+header.masthead h1, header.masthead .h1 {
+  margin: 0 0 20px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #6f6f6f;
+}
+
+header.masthead h2, header.masthead .h2 {
+color: #6f6f6f;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+header .btn-get-started {
+font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: #fff;
+  background: #464646;
+}
+
+header .btn-get-started:hover {
+  background: #b6b6b6;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
